@@ -2,7 +2,7 @@
 
 ## 1. Select
 
-&nbsp;
+<br />
 
 * Select all fields from table
 
