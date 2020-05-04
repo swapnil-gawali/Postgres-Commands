@@ -1,6 +1,6 @@
 # Postgres-Commands
 
-![](pg2.png =250x)
+<img src="pg2.png" height="200">
 
 ### Select
 
