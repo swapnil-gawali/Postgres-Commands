@@ -1,6 +1,6 @@
 # Postgres-Commands
 
-![PostgreSQL](pg2.png "PostgreSQL")
+![](pg2.png =250x)
 
 ### Select
 
