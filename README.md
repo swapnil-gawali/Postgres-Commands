@@ -1,6 +1,6 @@
 # Postgres-Commands
 
-<img src="pg2.png" height="200" alt="">
+<img src="pg.png" height="150" alt="">
 
 ### Select
 
