@@ -60,5 +60,15 @@ SELECT * FROM <table_name> WHERE age > <numeric_value>
 
 SELECT * FROM <table_name> WHERE age < <numeric_value>
 
-SELECT * FROM <table_name> WHERE interest / <numeric_value> = 10
+SELECT * FROM <table_name> WHERE interest / <numeric_value> = 0
+```
+
+* Search using Date Values
+```sql
+SELECT * FROM <table_name> WHERE date > '<YEAR-MONTH-DAY>'
+```
+
+> Example
+```sql
+SELECT * FROM users WHERE age > '1990-04-15'
 ```
