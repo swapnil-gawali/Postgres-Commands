@@ -23,9 +23,19 @@ SELECT DISTINCT FROM <table_name>
 ```sql
 SELECT COUNT(<column_name> || *) FROM <table_name>
 ```
-> Example
+> Examples
 ```sql
 SELECT COUNT(*) FROM t_users
 
 SELECT COUNT(city) FROM t_users
+```
+
+* Select count of unique (non-duplicates) values from table
+```sql
+SELECT COUNT(DISTINCT <column_name> || *) FROM <table_name>
+```
+
+> Example
+```sql
+SELECT COUNT(DISTINCT city) FROM t_users
 ```
