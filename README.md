@@ -63,7 +63,7 @@ SELECT * FROM <table_name> WHERE age < <numeric_value>
 SELECT * FROM <table_name> WHERE interest / <numeric_value> = 0
 ```
 
-* Search using Date Values
+* Search using date values
 ```sql
 SELECT * FROM <table_name> WHERE date > '<YEAR-MONTH-DAY>'
 ```
