@@ -4,7 +4,7 @@
 
 
 
-### Select all fields from table
+#### Select all fields from table
 ```sql
 SELECT * FROM <table_name>
 ```
