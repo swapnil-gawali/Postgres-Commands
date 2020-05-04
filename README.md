@@ -35,7 +35,19 @@ SELECT COUNT(city) FROM t_users
 SELECT COUNT(DISTINCT <column_name> || *) FROM <table_name>
 ```
 
-> Example
+> Examples
 ```sql
 SELECT COUNT(DISTINCT city) FROM t_users
+
+SELECT COUNT(DISTINCT *) FROM t_users
 ```
+
+
+### Search
+
+<br />
+
+* Search using string value (Only single quote allowed & case-sensitive)
+```sql
+SELECT * FROM <table_name> WHERE name = '<string>'
+``` 
