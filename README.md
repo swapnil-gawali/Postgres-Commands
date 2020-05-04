@@ -51,3 +51,14 @@ SELECT COUNT(DISTINCT *) FROM t_users
 ```sql
 SELECT * FROM <table_name> WHERE name = '<string>'
 ``` 
+
+* Search using numeric values (with >, <, =, /)
+```sql
+SELECT * FROM <table_name> WHERE id = <numeric_value>
+
+SELECT * FROM <table_name> WHERE age > <numeric_value>
+
+SELECT * FROM <table_name> WHERE age < <numeric_value>
+
+SELECT * FROM <table_name> WHERE interest / <numeric_value> = 10
+```
